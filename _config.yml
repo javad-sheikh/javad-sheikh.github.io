@@ -1,16 +1,11 @@
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: Javad Shiekh
+description: A blog about me an my projects
 username: Javad Sheikh
 user_description: >-
-  Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a
-  bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters
-  pour-over snackwave you probably haven't heard of them small batch. Cornhole
-  mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: Javad@n@yahoo.com.com
-twitter_username: lorem_ipsum
-github_username: lorem_ipsum
-gplus_username: lorem_ipsum
+  I'm a Artificial Intelligence Master of Science student at Amirkabir university of Tehran. 
+user_title: Artificial Intelligence developer
+email: Javad@n@yahoo.com
+github_username: Javad-shiekh
 google-analytics:
   id: ''
 exclude:
