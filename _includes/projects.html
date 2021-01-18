@@ -3,27 +3,23 @@
 </div>
 <div class="user-projects">
   <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/card_scanner.gif" | prepend: site.baseurl }}" />
   </div>
   <div class="contents">
-    <h3> Project Title </h3>
+    <h3> Credit Card Scanner</h3>
     <ul>
-      <li> Featured Skills</li>
+      <li> Tensorflow </li>
+      <li> Tensorflow-Lite</li>
+      <li> Android</li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
-  </div>
-</div>
-<div class="user-projects">
-  <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents-right">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <p>In this project, I developed an android program to read Iranian credit card numbers and expiration dates from the device's camera utilizing Tensorflow-Lite.
+    </p>
+    <p>
+    I trained three convolutional neural networks for this task. My first CNN network searched the image and reported the place of credit card number and expiration date. I trained the other 2 CNN networks to read the credit card number and expiration date.
+    </p>
+    <p>
+    After training the network, I developed a smooth android app to open the device camera to take images and process these images in the background. Then I created an Android library for opening the camera and processing them using TensorFlow.
+    </p>
+    <a class="project-link" target="_blank" href="https://github.com/javad-sheikh/Card-Reader">Check it out</a>
   </div>
 </div>
